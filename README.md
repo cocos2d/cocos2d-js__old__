@@ -41,4 +41,8 @@ $ cocos2d dist --ios
 $ cocos2d publish --ios
 
 ```
+# Will generate bytecode files
+$ ./jscompile.py -d output4 -s cocos2dx_root/scripting/javascript/bindings/js -s cocos2dx_root/samples/Javascript/Shared/tests -o main.js -j compiler_config_sample.json -c
+
+```
 
